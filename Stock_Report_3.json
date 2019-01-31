@@ -1,0 +1,38 @@
+{
+    "Flipkart" : [
+                    {
+                        "name" : "Mobiles",
+                        "price" : 15000,
+                        "shares" : 42
+                    },
+                    {
+                        "name" : "Home_Aplliances",
+                        "price" : 7000,
+                        "shares"  : 70
+                    },
+                    {
+                        "name" : "Grocery",
+                        "price" : 5000,
+                        "shares"  : 99
+                    }
+                ],
+    "Amazon" :   [
+                    {
+                        "name" : "Mobiles",
+                        "price" : 16000,
+                        "shares" : 23
+                    },
+                    {
+                        "name" : "Home_Aplliances",
+                        "price" : 3500,
+                        "shares"  : 10
+                    },
+                    {
+                        "name" : "Grocery",
+                        "price" : 8000,
+                        "shares"  : 90
+                    }
+                ]
+}
+
+

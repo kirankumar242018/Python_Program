@@ -1,0 +1,74 @@
+{
+  "Stock Report": [
+    {
+      "Stock Name": "Google",
+      "Number of Share": 27,
+      "Share Price": 1500
+    },
+    {
+      "Stock Name": "InstaGram",
+      "Number of Share": 25,
+      "Share Price": 1500
+    },
+    {
+      "Stock Name": "Microsoft",
+      "Number of Share": 15,
+      "Share Price": 1500
+    },
+    {
+      "Stock Name": "IBM",
+      "Number of Share": 18,
+      "Share Price": 1000
+    },
+    {
+      "Stock Name": "Facebook",
+      "Number of Share": 19,
+      "Share Price": 1700
+    },
+    {
+      "Stock Name": "Oracle",
+      "Number of Share": 8,
+      "Share Price": 800
+    },
+    {
+      "Stock Name": "Apple",
+      "Number of Share": 49,
+      "Share Price": 2000
+    },
+    {
+      "Stock Name": "TCS",
+      "Number of Share": 41,
+      "Share Price": 300
+    },
+    {
+      "Stock Name": "Intel",
+      "Number of Share": 30,
+      "Share Price": 2500
+    },
+    {
+      "Stock Name": "wipro",
+      "Number of Share": 15,
+      "Share Price": 1200
+    },
+    {
+      "Stock Name": "L&T",
+      "Number of Share": 47,
+      "Share Price": 500
+    },
+    {
+      "Stock Name": "Bosch",
+      "Number of Share": 34,
+      "Share Price": 700
+    },
+    {
+      "Stock Name": "helloindia",
+      "Number of Share": 17,
+      "Share Price": 1200
+    },
+    {
+      "Stock Name": "Ant",
+      "Number of Share": 6,
+      "Share Price": 1200
+    }
+  ]
+}

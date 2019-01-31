@@ -1,0 +1,92 @@
+{
+    "Rice": [
+        {
+            "name": "A1",
+            "weight": 1,
+            "price": 100,
+            "quantity": 100
+        },
+        {
+            "name": "A2",
+            "weight": 1,
+            "price": 120,
+            "quantity": 110
+        },
+        {
+            "name": "A3",
+            "weight": 1,
+            "price": 100,
+            "quantity": 100
+        },
+        {
+            "name": "A4",
+            "Weight": 1,
+            "price": 10,
+            "quantity": 120
+        },
+        {
+            "name": "A5",
+            "Weight": 1,
+            "price": 48,
+            "quantity": 120
+        },
+        {
+            "name": "oldRice",
+            "Weight": 1,
+            "price": 52,
+            "quantity": 100
+        },
+        {
+            "name": "a9",
+            "Weight": 1,
+            "price": 78,
+            "quantity": 200
+        },
+        {
+            "name": "k1",
+            "Weight": 1,
+            "price": 58,
+            "quantity": 25
+        }
+    ],
+    "Pulses": [
+        {
+            "name": "P1",
+            "weight": 1,
+            "price": 120,
+            "quantity": 100
+        },
+        {
+            "name": "P2",
+            "weight": 1,
+            "price": 140,
+            "quantity": 110
+        },
+        {
+            "name": "P3",
+            "weight": 1,
+            "price": 100,
+            "quantity": 160
+        }
+    ],
+    "Wheat": [
+        {
+            "name": "W1",
+            "weight": 1,
+            "price": 100,
+            "quantity": 75
+        },
+        {
+            "name": "W2",
+            "weight": 1,
+            "price": 120,
+            "quantity": 80
+        },
+        {
+            "name": "W3",
+            "weight": 1,
+            "price": 100,
+            "quantity": 90
+        }
+    ]
+}

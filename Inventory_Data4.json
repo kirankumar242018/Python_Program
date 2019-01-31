@@ -1,0 +1,58 @@
+{
+  "Rice": [
+    {
+      "name": "Basmati",
+      "weight": "1",
+      "price": "50"
+    },
+    {
+      "name": "Brownie",
+      "weight": "1",
+      "price": "55"
+    },
+    {
+      "name": "Jasmine",
+      "weight": "1",
+      "price": "65"
+    },
+    {
+      "name": "cool",
+      "weight": "2",
+      "price": "120"
+    }
+  ],
+  "Wheat": [
+    {
+      "name": "Spelt",
+      "weight": "1",
+      "price": "66"
+    },
+    {
+      "name": "Durum",
+      "weight": "1",
+      "price": "59"
+    },
+    {
+      "name": "Emmer",
+      "weight": "1",
+      "price": "29"
+    },
+    {
+      "name": "Khona",
+      "weight": "1",
+      "price": "77"
+    }
+  ],
+  "Pulses": [
+    {
+      "name": "Mung",
+      "weight": "1",
+      "price": "69"
+    },
+    {
+      "name": "Moth",
+      "weight": "1",
+      "price": "89"
+    }
+  ]
+}

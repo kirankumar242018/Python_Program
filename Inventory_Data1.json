@@ -1,0 +1,18 @@
+{"Rice": [
+		{"name": "Basmati Rice", "weight": 1, "price": 50}, 
+		{"name": "Brown Rice", "weight": 1, "price": 55}, 
+		{"name": "Jasmine Rice", "weight": 1, "price": 65} 
+		
+	 ], 
+"Wheat": [
+		{"name": "Spelt", "weight": 1, "price": 66}, 
+		{"name": "Durum", "weight": 1, "price": 59}, 
+		{"name": "Emmer", "weight": 1, "price": 29}, 
+		{"name": "Khorasan", "weight": 1, "price": 77}
+	 ], 
+"Pulses": [
+		{"name": "Mung bean", "weight": 1, "price": 69}, 
+		{"name": "Moth bean", "weight": 1, "price": 89} 
+		
+	  ]
+}
