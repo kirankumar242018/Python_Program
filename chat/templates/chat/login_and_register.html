@@ -1,0 +1,59 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'chat/style1.css' %}" >
+<html>
+    <body>
+        <div class="container">
+            <input type='checkbox' id='form-switch'>
+            <!--<form id='login-form' action="/user_login/" method='post' onclick="return validation()">-->
+                <form id='login-form' action="{% url 'loginchatview' %}" method='post' >{% csrf_token %}
+
+                  <input type="text"  placeholder="Username" required name="username">
+                  <input type="password"  placeholder="Password" required name="password">
+                  <button type='submit'>Login</button>
+                  <label for='form-switch'><span>Register</span></label>
+            </form>
+
+
+
+            <form id='register-form' action="/adduser/" method='post'>
+                {% csrf_token %}
+                  <p>{{ error }}</p>
+                  <input type="text"  placeholder="Username" required name="username">
+                  <!--<span id="usernameerror"></span><br>-->
+                  <input type="email" placeholder="Email" required name="email">
+                  <input type="password"  placeholder="Password" required name="password">
+                  <!--<span id="passworderror"></span><br>-->
+
+                  <input type="password" placeholder="Re Password" required name="re_password">
+                  <!--<span id="re_passworderror"></span><br>-->
+                  <button type='submit'>Register</button>
+                  <label for='form-switch'>Already Member ? Sign In Now..</label>
+            </form>
+            <script>
+                function validation()
+                {
+                    var username = document.getElementById('username').value;
+                    var email = document.getElementById('email').value;
+                    var password1 = document.getElementById('password').value;
+                    var password2 = document.getElementById('re_password').value;
+                    if(!username.match(letters))
+                    {
+                        document.getElementById('usernameerror').innerHTML="**please fill characters only**";
+                        return false;
+                    }
+                    if((password1.length < 8) || (password1.length > 12))
+                    {
+                        document.getElementById('passworderror').innerHTML="**please fill password range between 8 to 12**";
+                        return false;
+                    }
+                    if(password1 != password2)
+                    {
+                        document.getElementById('re_passworderror').innerHTML="**please fill characters only**";
+                        return false;
+                    }
+                 }
+
+            </script>
+    </div>
+</body>
+</html>
