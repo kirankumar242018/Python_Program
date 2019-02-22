@@ -1,0 +1,19 @@
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> {% block title %} Fundoo_Note {% endblock %}</title>
+        <meta name="keyword" content=""/>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width" />
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+         <link rel="stylesheet" type="text/css" href="{% static 'fundoo/styles.css' %}"/>
+    </head>
+    <body>
+        <h1><center>Welcome to fundoo..</center></h1>
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>
